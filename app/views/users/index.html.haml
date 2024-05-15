@@ -1,0 +1,25 @@
+%h1 Users
+
+%table
+  %thead
+    %tr
+      %th Name
+      %th Role
+      %th Newsletter
+      %th
+      %th
+      %th
+
+  %tbody
+    - @users.each do |user|
+      %tr
+        %td= user.name
+        %td= user.role
+        %td= user.newsletter
+        %td= link_to 'Show', user
+        %td= link_to 'Edit', edit_user_path(user)
+        %td= link_to 'Destroy', user, 'up-confirm': 'Are you sure?', 'up-method': 'delete'
+
+%br
+
+= link_to 'New User', new_user_path

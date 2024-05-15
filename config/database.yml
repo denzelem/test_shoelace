@@ -1,0 +1,12 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+
+development:
+  <<: *default
+  database: test_shoelace_development
+  host: localhost
+
+test:
+  <<: *default
+  database: test_shoelace_development_test

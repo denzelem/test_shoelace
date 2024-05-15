@@ -1,0 +1,22 @@
+{
+  "name": "app",
+  "private": true,
+  "dependencies": {
+    "@shoelace-style/shoelace": "x",
+    "bootstrap-icons": "x",
+    "css-loader": "x",
+    "css-minimizer-webpack-plugin": "x",
+    "mini-css-extract-plugin": "x",
+    "sass": "x",
+    "sass-loader": "x",
+    "style-loader": "x",
+    "unpoly": "x",
+    "webpack": "x",
+    "webpack-cli": "x"
+  },
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "assets:build": "webpack --config webpack.config.js",
+    "assets:watch": "webpack --watch --config webpack.config.js"
+  }
+}
