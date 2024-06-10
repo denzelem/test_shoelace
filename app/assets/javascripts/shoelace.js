@@ -1,3 +1,4 @@
+import '@shoelace-style/shoelace/dist/themes/light.css'
 import '@shoelace-style/shoelace/dist/components/option/option'
 import '@shoelace-style/shoelace/dist/components/select/select'
 

@@ -28,20 +28,11 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.(sass|scss|css)$/i,
+        test: /\.css$/i,
         use: [
           MiniCssExtractPlugin.loader,
           {
             loader: 'css-loader',
-          },
-          {
-            loader: 'sass-loader',
-            options: {
-              sassOptions: {
-                quietDeps: true,
-                includePaths: ['tmp/webpack'],
-              },
-            },
           },
         ]
       },

@@ -7,8 +7,6 @@
     "css-loader": "x",
     "css-minimizer-webpack-plugin": "x",
     "mini-css-extract-plugin": "x",
-    "sass": "x",
-    "sass-loader": "x",
     "style-loader": "x",
     "unpoly": "x",
     "webpack": "x",

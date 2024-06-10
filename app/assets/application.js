@@ -2,4 +2,5 @@
 
 import './javascripts/unpoly'
 import './javascripts/shoelace'
-import './application.sass'
+import './application.css'
+import './stylesheets/shoelace.css'
